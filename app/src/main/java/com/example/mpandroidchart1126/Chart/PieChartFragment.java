@@ -35,7 +35,7 @@ public class PieChartFragment extends Fragment {
 
 
     private PieChart pieChart;
-    private List<PieEntry> entries = new ArrayList<>();
+    private List<PieEntry> entries ;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -43,6 +43,7 @@ public class PieChartFragment extends Fragment {
         pieChart = view.findViewById(R.id.pieChart);
 
         //添加数据
+        entries = new ArrayList<>();
         entries.add(new PieEntry(12.0f,"未违章"));
         entries.add(new PieEntry(88.0f,"违章"));
 

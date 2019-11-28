@@ -4,17 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Chart.BarChartFragment">
+    tools:context=".Chart.HorizontalBarChartFragment">
 
     <TextView
         android:textSize="40sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BarChart" />
+        android:text="HorizontalBarChart" />
 
-    <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/barChart"
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/horizontalBarchart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 
 </LinearLayout>

@@ -4,16 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Chart.BarChartFragment">
+    tools:context=".Chart.LineChartFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:textSize="40sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BarChart" />
+        android:text="LineChart" />
 
-    <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/barChart"
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

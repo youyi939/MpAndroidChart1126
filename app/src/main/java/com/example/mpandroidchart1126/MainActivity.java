@@ -9,7 +9,11 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 import com.example.mpandroidchart1126.Chart.BarChartFragment;
+import com.example.mpandroidchart1126.Chart.HorizontalBarChartFragment;
+import com.example.mpandroidchart1126.Chart.LineChartFragment;
 import com.example.mpandroidchart1126.Chart.PieChartFragment;
+import com.example.mpandroidchart1126.Chart.RadarChartFragment;
+import com.example.mpandroidchart1126.Chart.StackingBarChartFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
         fragmentList.add(new PieChartFragment());
         fragmentList.add(new BarChartFragment());
+        fragmentList.add(new LineChartFragment());
+        fragmentList.add(new StackingBarChartFragment());
+        fragmentList.add(new HorizontalBarChartFragment());
+        fragmentList.add(new RadarChartFragment());
 
         FragmentPagerAdapter adapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             @NonNull
